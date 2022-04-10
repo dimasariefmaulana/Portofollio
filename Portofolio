@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio DimasAriefMaulana</title>
+</head>
+<body>
+
+	<!-- sidebar -->
+	<input type="checkbox" id="check">
+	<div class="sidebar">
+		<ul>
+			<li><a href="#profile" class="menu">profile</a></li>
+			<li><a href="#about" class="menu">about</a></li>
+			<li><a href="#contact" class="menu">contact</a></li>
+		</ul>
+	</div>
+
+	<div class="left-container">
+		
+		<div class="photo-contact">
+			<img src="dimasarief.jpeg" class="photo">
+			<h1>Contact Me:</h1>
+
+		<a href="mailto:dimasariefmaulana21@gmail.com">
+			<button class="contact-btn">Email</button>
+			</a>
+
+			<a href="https://api.whatsapp.com/send?phone=6285368561445">
+			<button class="contact-btn">WhatsApp</button>
+			</a>
+
+			<a href="http://www.instagram.com/an.dimasariefmaulana_">
+			<button class="contact-btn">Instagram</button>
+			</a>
+
+		</div>
+
+	</div>
+			
+	<div class="right-container">
+			<!-- menu mobile -->
+			<label for="check" class="mobile-menu"><i class="fa-solid fa-bars fa-2x"></i></label>
+		<div class="top-bar">
+			<a href="" class="title">Daftar Riwayat Hidup</a>	
+			<div class="list-menu">
+				<a href="#profile" class="menu">profile</a>
+				<a href="#about" class="menu">about</a>
+				<a href="#contact" class="menu">contact</a>
+			</div>
+
+		</div>
+
+		<div id="profile">
+			<h1>Dimas Arief Maulana</h1>
+			<h1>Sistem Informasi</h1>
+      <h2>Fakultas Teknologi Informasi</h2>
+		</div>
+
+		<div id="about">
+			<h1>About</h1>
+			<p>Saya adalah seorang mahasiswa semester 4 disalah satu perguruan tinggi yang berada di malang yaitu Universitas Merdeka Malang.</p>
+		</div>
+
+		<div id="contact">
+			<h2>contact</h2>
+			<p><b>Phone:</b> 0895368561445</p>
+			<p><b>Email:</b> dimasariefmaulana21@gmail.com</p>
+			<p><b>Alamat:</b> Jl. Padang Griya Denpasar Barat Bali</p>
+		</div>
+	</div>
+</body>
+</html>
